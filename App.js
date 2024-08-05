@@ -1,20 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from "react-native";
+import styled from "styled-components";
+import Fecha1 from "./componentes/Fecha1";
 
 export default function App() {
+  const TituloTorneoView = styled(View)`
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+  `;
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+    <TituloTorneoView>
+      <Text>Torneo Clausura Libres 2024</Text>
+    </TituloTorneoView>
+    <Fecha1/>
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

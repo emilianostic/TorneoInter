@@ -1,0 +1,82 @@
+{
+    "equipos": [
+        {
+            "id": 1,
+            "nombre": "Ingenieros A",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 2,
+            "nombre": "Contadores D",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 3,
+            "nombre": "Contadores S",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 4,
+            "nombre": "Contadores E",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 5,
+            "nombre": "Abogados A",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 6,
+            "nombre": "Abogados E",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 7,
+            "nombre": "Kinesiólogos",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 8,
+            "nombre": "Ingenieros Arq.",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 9,
+            "nombre": "Ingenieros O",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 10,
+            "nombre": "Ingenieros Z",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 11,
+            "nombre": "Ingenieros Bio.",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 12,
+            "nombre": "Contadores J",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        },
+        {
+            "id": 13,
+            "nombre": "Contadores V",
+            "categoria": "Libres",
+            "club": "Interprofesional"
+        }
+    ]
+}

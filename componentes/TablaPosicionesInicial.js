@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import styled from 'styled-components/native';
 import equipos from '../equipos.json';
 
 const Contenedor = styled(View)`
+  width: 90%; /* Ajusta el ancho del contenedor */
   flex: 1;
-  justify-content: flex-start; /* Alinea los elementos en la parte superior */
+  justify-content: flex-start;
   padding: 20px;
   background-color: #f8f9fa;
 `;
@@ -14,12 +15,11 @@ const Titulo = styled(Text)`
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  /* margin-bottom: 100px; /* Reduce el margen inferior */
 `;
 
-const Tabla = styled(View)`
-  flex: 0.5; /* Ocupa menos espacio en la pantalla */
+const Tabla = styled(ScrollView)`
   margin-bottom: 20px;
+  max-height: 300px; /* Ajusta la altura máxima de la tabla */
 `;
 
 const Fila = styled(View)`
@@ -36,8 +36,6 @@ const Texto = styled(Text)`
   text-align: center;
   color: ${props => (props.header ? '#fff' : '#000')};
 `;
-
-
 
 const TablaPosiciones = () => {
   const [tablaPosiciones, setTablaPosiciones] = useState([]);
@@ -77,9 +75,9 @@ const TablaPosiciones = () => {
           </Fila>
         ))}
       </Tabla>
-      
     </Contenedor>
   );
 };
 
 export default TablaPosiciones;
+

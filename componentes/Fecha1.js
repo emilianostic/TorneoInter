@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, TextInput, View } from "react-native";
+import { Text, View } from "react-native";
 import styled from "styled-components/native";
 import equipos from "../equipos.json";
 
@@ -22,7 +22,7 @@ const EquipoText = styled(Text)`
   font-size: 16px; /* Reducir tamaño del texto */
 `;
 
-const GolesInput = styled(TextInput)`
+const GolesText = styled(Text)`
   height: 40px;
   width: 50px; /* Reducir ancho del input */
   border: 1px solid #ccc;
@@ -48,41 +48,47 @@ const Fecha1 = () => {
 
   return (
     <Contenedor1>
+      <Text>Fecha 1</Text>
       <Row>
         <EquipoText>{equipoAbogadosE.nombre}</EquipoText>
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
+        <GolesText>{equipoAbogadosE["goles a favor"]} </GolesText>
+        <GolesText>{equipoIngenierosZ["goles a favor"]} </GolesText>
         <EquipoText>{equipoIngenierosZ.nombre}</EquipoText>
       </Row>
       <Row>
         <EquipoText>{equipoContadoresJ.nombre}</EquipoText>
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
+        <GolesText>{equipoContadoresJ["goles a favor"]} </GolesText>
+        <GolesText>{equipoIngenierosA["goles a favor"]} </GolesText>
         <EquipoText>{equipoIngenierosA.nombre}</EquipoText>
       </Row>
       <Row>
         <EquipoText>{equipoIngenierosBio.nombre}</EquipoText>
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
+        <GolesText>{equipoIngenierosBio["goles a favor"]} </GolesText>
+        <GolesText>{equipoContadoresV["goles a favor"]} </GolesText>
         <EquipoText>{equipoContadoresV.nombre}</EquipoText>
       </Row>
       <Row>
         <EquipoText>{equipoContadoresE.nombre}</EquipoText>
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
-        <GolesInput placeholder="goles" keyboardType="numeric" maxLength={2} />
+        <GolesText>{equipoContadoresE["goles a favor"]}</GolesText>
+        <GolesText>{equipoIngenierosO["goles a favor"]}</GolesText>
         <EquipoText>{equipoIngenierosO.nombre}</EquipoText>
       </Row>
+      <Text>Partidos Postergados</Text>
       <Row>
         <EquipoText>{equipoAbogadosA.nombre}</EquipoText>
+        <GolesText>-</GolesText>
+        <GolesText>-</GolesText>
         <EquipoText>{equipoIngenierosArq.nombre}</EquipoText>
       </Row>
       <Row>
         <EquipoText>{equipoContadoresS.nombre}</EquipoText>
+        <GolesText>-</GolesText>
+        <GolesText>-</GolesText>
         <EquipoText>{equipoKinesiologos.nombre}</EquipoText>
       </Row>
       <Row>
         <EquipoText>{equipoContadoresD.nombre}</EquipoText>
-        <EquipoText>Fecha Libre</EquipoText>
+        <EquipoText>Fecha Libres</EquipoText>
       </Row>
     </Contenedor1>
   );

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView } from 'react-native';
+import { View, Text} from 'react-native';
 import styled from 'styled-components/native';
 import equipos from '../equipos.json';
 
 const Contenedor = styled(View)`
-  width: 90%; /* Ajusta el ancho del contenedor */
+  width: 80%; /* Ajusta el ancho del contenedor */
   flex: 1;
   justify-content: flex-start;
   padding: 20px;
-  background-color: #f8f9fa;
+  /*background-color: #f8f9fa;*/
 `;
 
 const Titulo = styled(Text)`
@@ -17,17 +17,17 @@ const Titulo = styled(Text)`
   text-align: center;
 `;
 
-const Tabla = styled(ScrollView)`
+/* const Tabla = styled(ScrollView)`
   margin-bottom: 20px;
-  max-height: 300px; /* Ajusta la altura máxima de la tabla */
-`;
+  max-height: 300px; /* Ajusta la altura máxima de la tabla` */
+
 
 const Fila = styled(View)`
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
-  border-bottom-width: 1px;
-  border-bottom-color: #ccc;
+  /* border-bottom-width: 1px;
+  border-bottom-color: #ccc; */
   background-color: ${props => (props.header ? '#007bff' : '#fff')};
 `;
 
@@ -54,19 +54,20 @@ const TablaPosiciones = () => {
 
   return (
     <Contenedor>
+      <Text>Fecha 1</Text>
       <Titulo>Tabla de Posiciones</Titulo>
-      <Tabla>
-        <Fila header>
-          <Texto header>Equipo</Texto>
-          <Texto header>Pts</Texto>
-          <Texto header>PJ</Texto>
-          <Texto header>GF</Texto>
-          <Texto header>GC</Texto>
-          <Texto header>DG</Texto>
+    
+        <Fila header style={{width: 380 }}>
+          <Texto header style={{width: 80 }} >Equipo</Texto>
+          <Texto header style={{width: 40 }}>Pts</Texto>
+          <Texto header style={{width: 40 }}>PJ</Texto>
+          <Texto header style={{width: 40 }}>GF</Texto>
+          <Texto header style={{width: 40 }}>GC</Texto>
+          <Texto header style={{width: 40 }}>DG</Texto>
         </Fila>
         {tablaPosiciones.map((equipo, index) => (
           <Fila key={index}>
-            <Texto>{equipo.nombre}</Texto>
+            <Texto style={{width: 100 }}>{equipo.nombre}</Texto>
             <Texto>{equipo.puntos}</Texto>
             <Texto>{equipo.partidosJugados}</Texto>
             <Texto>{equipo.golesFavor}</Texto>
@@ -74,7 +75,7 @@ const TablaPosiciones = () => {
             <Texto>{equipo.diferenciaGol}</Texto>
           </Fila>
         ))}
-      </Tabla>
+      
     </Contenedor>
   );
 };

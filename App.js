@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import styled from "styled-components/native";
 import Fecha1 from "./componentes/Fecha1";
 import TablaPosiciones from "./componentes/TablaPosicionesInicial";
@@ -19,11 +19,13 @@ const ContenedorPrincipal = styled(View)`
 export default function App() {
   return (
     <ContenedorPrincipal>
+      <ScrollView>
       <TituloTorneoView>
         <Text>Torneo Clausura Libres 2024</Text>
       </TituloTorneoView>
-      <Fecha1 />
       <TablaPosiciones />
+      <Fecha1 />
+      </ScrollView>
     </ContenedorPrincipal>
   );
 }

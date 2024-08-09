@@ -128,7 +128,7 @@
             "goles en contra": 1,
             "diferecia de gol": -1,
             "puntos": 0,
-            "partidos jugados ": 1
+            "partidos jugados": 1
             
         },
         {
@@ -178,12 +178,12 @@
             "nombre": "Ingenieros A",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Contadores J",
-            "goles a favor": 1,
-            "goles en contra": 3,
-            "diferecia de gol": -2,
-            "puntos": 0,
-            "partidos jugados": 1
+            "cruce": "Ingenieros O",
+            "goles a favor": 2,
+            "goles en contra": 0,
+            "diferecia de gol": 2,
+            "puntos": 3,
+            "partidos jugados": 2
             
         },
         {
@@ -191,12 +191,12 @@
             "nombre": "Contadores D",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Libre",
-            "goles a favor": 0,
-            "goles en contra": 0,
-            "diferecia de gol": 0,
-            "puntos": 0,
-            "partidos jugados": 0
+            "cruce": "Abogados E",
+            "goles a favor": 4,
+            "goles en contra": 1,
+            "diferecia de gol": 3,
+            "puntos": 3,
+            "partidos jugados": 1
             
         },
         {
@@ -204,7 +204,7 @@
             "nombre": "Contadores S",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Kinesiologos",
+            "cruce": "Ingenieros Arq",
             "goles a favor": 0,
             "goles en contra": 0,
             "diferecia de gol": 0,
@@ -217,12 +217,12 @@
             "nombre": "Contadores E",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Ingenieros O",
+            "cruce": "Contadores V",
             "goles a favor": 2,
-            "goles en contra": 2,
-            "diferecia de gol": 0,
-            "puntos": 1,
-            "partidos jugados": 1
+            "goles en contra": 1,
+            "diferecia de gol": 1,
+            "puntos": 3,
+            "partidos jugados": 2
             
         },
         {
@@ -230,12 +230,12 @@
             "nombre": "Abogados A",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Ingenieros Arq",
-            "goles a favor": 0,
+            "cruce": "Ingenieros Bio",
+            "goles a favor": 1,
             "goles en contra": 0,
-            "diferecia de gol": 0,
-            "puntos": 0,
-            "partidos jugados": 0
+            "diferecia de gol": 1,
+            "puntos": 3,
+            "partidos jugados": 1
             
         },
         {
@@ -243,12 +243,12 @@
             "nombre": "Abogados E",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Ingenieros Z",
+            "cruce": "Contadores D",
             "goles a favor": 1,
-            "goles en contra": 0,
-            "diferecia de gol": 1,
-            "puntos": 3,
-            "partidos jugados": 1
+            "goles en contra": 4,
+            "diferecia de gol": -3,
+            "puntos": 0,
+            "partidos jugados": 2
             
 
         },
@@ -257,12 +257,13 @@
             "nombre": "Kinesiólogos",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Contadores S",
-            "goles a favor": 0,
-            "goles en contra": 0,
-            "diferecia de gol": 0,
+            "cruce": "Ingenieros Z",
+            "goles a favor": 1,
+            "goles en contra": 3,
+            "diferecia de gol": -2,
             "puntos": 0,
-            "partidos jugados": 0
+            "partidos jugados": 1
+
            
         },
         {
@@ -270,7 +271,7 @@
             "nombre": "Ingenieros Arq",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Abogados A",
+            "cruce": "Contadores S",
             "goles a favor": 0,
             "goles en contra": 0,
             "diferecia de gol": 0,
@@ -283,12 +284,12 @@
             "nombre": "Ingenieros O",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Contadores E",
-            "goles a favor": 2,
+            "cruce": "Ingenieros A",
+            "goles a favor": 0,
             "goles en contra": 2,
-            "diferecia de gol": 0,
-            "puntos": 1,
-            "partidos jugados": 1
+            "diferecia de gol": -2,
+            "puntos": 0,
+            "partidos jugados": 2
             
         },
         {
@@ -296,12 +297,12 @@
             "nombre": "Ingenieros Z",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Abogados E",
-            "goles a favor": 0,
+            "cruce": "Kinesiologos",
+            "goles a favor": 3,
             "goles en contra": 1,
-            "diferecia de gol": -1,
-            "puntos": 0,
-            "partidos jugados ": 1
+            "diferecia de gol": 2,
+            "puntos": 3,
+            "partidos jugados": 2
             
         },
         {
@@ -309,12 +310,12 @@
             "nombre": "Ingenieros Bio",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Contadores V",
-            "goles a favor": 2,
-            "goles en contra": 0,
-            "diferecia de gol": 2,
-            "puntos": 3,
-            "partidos jugados": 1
+            "cruce": "Abogados A",
+            "goles a favor": 0,
+            "goles en contra": 1,
+            "diferecia de gol": -1,
+            "puntos": 0,
+            "partidos jugados": 2
            
         },
         {
@@ -322,11 +323,11 @@
             "nombre": "Contadores J",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Ingenieros A",
-            "goles a favor": 3,
-            "goles en contra": 1,
-            "diferecia de gol": 2,
-            "puntos": 3,
+            "cruce": "Libre",
+            "goles a favor": 0,
+            "goles en contra": 0,
+            "diferecia de gol": 0,
+            "puntos": 0,
             "partidos jugados": 1
             
         },
@@ -335,12 +336,12 @@
             "nombre": "Contadores V",
             "categoria": "Libres",
             "club": "Interprofesional",
-            "cruce": "Ingenieros Bio",
-            "goles a favor": 0,
+            "cruce": "Conadores E",
+            "goles a favor": 1,
             "goles en contra": 2,
-            "diferecia de gol": -2,
+            "diferecia de gol": -1,
             "puntos": 0,
-            "partidos jugados": 1
+            "partidos jugados": 2
            
         }
     ]

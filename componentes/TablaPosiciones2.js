@@ -29,16 +29,16 @@ const Texto = styled(Text)`
   color: ${props => (props.header ? '#fff' : '#000')};
 `;
 
-const TablaPosiciones = () => {
+const TablaPosiciones2 = () => {
   // Inicializa y ordena la tabla de posiciones
-  const tablaPosiciones = equipos.equipos
-    .map(equipo => ({
-      nombre: equipo.nombre,
-      puntos: equipo.puntos,
-      partidosJugados: equipo['partidos jugados'],
-      golesFavor: equipo['goles a favor'],
-      golesContra: equipo['goles en contra'],
-      diferenciaGol: equipo['diferecia de gol'],
+  const tablaPosiciones = equipos.equipos2
+    .map(equipo2 => ({
+      nombre: equipo2.nombre,
+      puntos: equipo2.puntos,
+      partidosJugados: equipo2['partidos jugados'],
+      golesFavor: equipo2['goles a favor'],
+      golesContra: equipo2['goles en contra'],
+      diferenciaGol: equipo2['diferecia de gol'],
     }))
     .sort((a, b) => {
       if (b.puntos !== a.puntos) {
@@ -62,19 +62,19 @@ const TablaPosiciones = () => {
         <Texto header style={{ width: 40 }}>GC</Texto>
         <Texto header style={{ width: 40 }}>DG</Texto>
       </Fila>
-      {tablaPosiciones.map((equipo, index) => (
+      {tablaPosiciones.map((equipo2, index) => (
         <Fila key={index}>
-          <Texto style={{ width: 100 }}>{equipo.nombre}</Texto>
-          <Texto>{equipo.puntos}</Texto>
-          <Texto>{equipo.partidosJugados}</Texto>
-          <Texto>{equipo.golesFavor}</Texto>
-          <Texto>{equipo.golesContra}</Texto>
-          <Texto>{equipo.diferenciaGol}</Texto>
+          <Texto style={{ width: 100 }}>{equipo2.nombre}</Texto>
+          <Texto>{equipo2.puntos}</Texto>
+          <Texto>{equipo2.partidosJugados}</Texto>
+          <Texto>{equipo2.golesFavor}</Texto>
+          <Texto>{equipo2.golesContra}</Texto>
+          <Texto>{equipo2.diferenciaGol}</Texto>
         </Fila>
       ))}
     </Contenedor>
   );
 };
 
-export default TablaPosiciones;
+export default TablaPosiciones2;
   

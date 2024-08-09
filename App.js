@@ -2,6 +2,8 @@ import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import styled from "styled-components/native";
 import Fecha1 from "./componentes/Fecha1";
 import TablaPosiciones from "./componentes/TablaPosicionesInicial";
+import Fecha2 from "./componentes/Fecha2";
+import TablaPosiciones2 from "./componentes/TablaPosiciones2";
 
 const TituloTorneoView = styled(View)`
   justify-content: flex-start;
@@ -23,8 +25,8 @@ export default function App() {
       <TituloTorneoView>
         <Text>Torneo Clausura Libres 2024</Text>
       </TituloTorneoView>
-      <TablaPosiciones />
-      <Fecha1 />
+      <TablaPosiciones2 />
+      <Fecha2 />
       </ScrollView>
     </ContenedorPrincipal>
   );

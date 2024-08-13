@@ -52,7 +52,7 @@ const TablaPosiciones2 = () => {
 
   return (
     <Contenedor>
-      <Text>Fecha 1</Text>
+      <Text>Fecha 2</Text>
       <Titulo>Tabla de Posiciones</Titulo>
       <Fila header style={{ width: 380 }}>
         <Texto header style={{ width: 80 }}>Equipo</Texto>
